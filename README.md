@@ -22,9 +22,6 @@ only to describe hardware compatibility.
 |---|---|
 | ![Menu-bar app showing gain picker and live meters](docs/images/menu-bar-app.png) | ![Snowball Boosted listed as a Sound input device](docs/images/sound-settings-input.png) |
 
-*(Placeholders — add the actual screenshots to `docs/images/` as `menu-bar-app.png` and
-`sound-settings-input.png`.)*
-
 ## Requirements
 
 - Apple Silicon Mac, macOS 15 or later (developed and tested on macOS 27).
