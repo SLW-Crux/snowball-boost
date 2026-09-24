@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bash scripts/preflight.sh)",
+      "Bash(swift build:*)",
+      "Bash(swift test:*)",
+      "Bash(swift run:*)",
+      "Bash(make:*)",
+      "Bash(xcrun:*)",
+      "Bash(xcodebuild -version)",
+      "Bash(clang:*)",
+      "Bash(codesign:*)",
+      "Bash(nm:*)",
+      "Bash(otool:*)",
+      "Bash(plutil:*)",
+      "Bash(system_profiler SPAudioDataType:*)",
+      "Bash(./build/:*)",
+      "Bash(.build/debug/sbboost:*)",
+      "Bash(.build/release/sbboost:*)",
+      "Bash(launchctl print:*)",
+      "Bash(log show:*)",
+      "Bash(ls:*)",
+      "Bash(mkdir:*)",
+      "Bash(chmod +x scripts/:*)"
+    ],
+    "deny": [
+      "Bash(csrutil:*)",
+      "Bash(brew:*)",
+      "Bash(curl:*)",
+      "Bash(wget:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}

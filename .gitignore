@@ -1,0 +1,14 @@
+.build/
+build/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+bench-out/
+*.wav
+*.m4a
+.claude/settings.local.json
+
+# Personal/local-only — never commit these
+docs/PROGRESS.md
+CLAUDE.local.md
+Makefile.local
